@@ -16,14 +16,6 @@ body {
     background-image: url('../img/roughcloth.png');
 }
 
-::-moz-selection {
-    text-shadow: none;
-}
-
-::selection {
-    text-shadow: none;
-}
-
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
