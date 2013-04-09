@@ -92,11 +92,9 @@ nav a:hover {
 .tab-switcher {
   position: relative;
 }
-
 .tab {
   float: left;
 }
-
 .tab-switcher label {
   padding: 14px;
   border-radius: 8px 8px 0 0;
@@ -111,11 +109,9 @@ nav a:hover {
   -ms-transition: all .4s linear;
   transition: all .4s linear;
 }
-
 .tab-switcher label:hover {
   cursor: pointer;
 }
-
 .tab-content {
   position: absolute;
   top: 44px;
@@ -131,16 +127,13 @@ nav a:hover {
   -ms-transition: all .4s linear;
   transition: all .4s linear;
 }
-
 .tab-switcher input[type=radio] {
   display: none;
 }
-
 .tab-switcher input[type=radio]:checked ~ .tab-content {
   z-index: 10;
   opacity: 1;
 }
-
 .tab-switcher input[type=radio]:checked ~ label {
   background: #888;
   color: white;
